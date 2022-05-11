@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ -z $1 ]; then
+  pipenv run python3 -m unittest discover
+else
+  pipenv run python3 -m unittest $1
+fi

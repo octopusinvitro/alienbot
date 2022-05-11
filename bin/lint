@@ -1,0 +1,3 @@
+#!/bin/bash
+
+pipenv run flake8 *.py alienbot tests main.py --max-line-length=100

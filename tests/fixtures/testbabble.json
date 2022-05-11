@@ -1,0 +1,32 @@
+{
+  "greet_message": "Hello",
+  "help_message": "Help me {} please",
+  "bye_message": "Bye",
+  "negative_responses": ["no", "nope"],
+  "exit_commands": ["quit", "exit"],
+  "starter_questions": [
+    "How are you?",
+    "Tell me something"
+  ],
+  "lookups": [
+    [
+      ".*why\\s*.*",
+      [
+        "I come in peace",
+        "Why not?!"
+      ]
+    ],
+    [
+      ".*i\\s+think\\s(.*)",
+      [
+        "But you are not sure {0}?",
+        "Why do you think {0}?"
+      ]
+    ]
+  ],
+  "reflections": {
+    "i'm": "you are",
+    "you": "I",
+    "I": "you"
+  }
+}

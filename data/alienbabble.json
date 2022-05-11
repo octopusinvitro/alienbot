@@ -1,0 +1,98 @@
+{
+  "greet_message": "What do they call you?\n",
+  "help_message": "Hi, {} I'm Marvin. Will you help me?\n",
+  "bye_message": "OK, have a great day!",
+  "negative_responses": ["no", "nope", "nah", "naw", "not a chance", "sorry"],
+  "exit_commands": ["quit", "pause", "exit", "goodbye", "bye", "later"],
+  "starter_questions": [
+    "Why are you here?",
+    "Are there many humans like you?",
+    "What do you consume for sustenance?",
+    "Is there intelligent life on this planet?",
+    "Does Earth have a leader?",
+    "What planets have you visited?",
+    "What technology do you have on this planet?"
+  ],
+  "lookups": [
+    [
+      ".*\\s*your planet",
+      [
+        "My planet is a utopia of diverse orgnaisms and species.",
+        "I am from Opidipus, the capital of the Waynard Galaxies."
+      ]
+    ],
+    [
+      ".*why\\sdo\\syou\\s(.*[^\\?]*)\\??",
+      [
+        "What makes you think I {0}?",
+        "Do I {0}?",
+        "Do you think I should {0}",
+        "Because I am on a great mission. Have you been on a mission?",
+        "Because I like {0}. What do you do for fun around here?"
+      ]
+    ],
+    [
+      ".*why\\s+.*",
+      [
+        "I come in peace",
+        "I am here to collect data on your planet and its inhabitants.",
+        "Everyone in my planet is like me",
+        "I heard that coffee is good in your planet.",
+        "Why not?!"
+      ]
+    ],
+    [
+      ".*it\\s+is.*",
+      [
+        "You seem very certain. why is that?",
+        "Do you have any evidence?",
+        "Youo people know so little"
+      ]
+    ],
+    [
+      ".*i\\s+think\\s(.*)",
+      [
+        "But you are not sure {0}?",
+        "Why do you think {0}?"
+      ]
+    ],
+    [
+      ".*what\\s+.*",
+      [
+        "Why do you ask?",
+        "My planet is out of resources so I am here looking for help."
+      ]
+    ],
+    [
+      ".*",
+      [
+        "Please tell me more",
+        "Tell me more!",
+        "Why do you say that?",
+        "I see. Can you elaborate?",
+        "Interesting. Can you tell me more?",
+        "I see. How do you think?",
+        "Why?",
+        "How do you think I feel when you say that?"
+      ]
+    ]
+  ],
+  "reflections": {
+    "I'm": "you are",
+    "you're": "I'm",
+    "I": "you",
+    "you": "I",
+    "me": "you",
+    "am": "are",
+    "are": "am",
+    "I'd": "you would",
+    "I've": "you have",
+    "I'll": "you will",
+    "you'd": "I would",
+    "you've": "I have",
+    "you'll": "I will",
+    "my": "your",
+    "your": "my",
+    "yours": "mine"
+  }
+}
